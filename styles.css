@@ -1,0 +1,104 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.body-class {
+    background-color:black;
+}
+
+.title-class {
+    color: white;
+}
+
+.section-title-class {
+    color: white;
+}
+
+.text-class {
+    color: white;
+}
+
+.cite-class {
+    color: lightslategray
+}
+
+.faq-section-class {
+    color:white;
+}
+
+.label-class {
+    color: white;
+    padding: 4px;
+}
+
+.header-class, .footer-class {
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    padding: 7px;
+    padding-top: 2px;
+}
+
+.nav-class {
+    border-radius: 10px;
+    background-color:red;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    border-radius: 10px;
+    background-color: rgb(255, 140, 140);
+  }
+  
+  .active {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.292);
+    font-weight: bold;
+  }
+
+.image-class {
+    border-radius: 20px;
+    border: 5px solid red;
+    width: 98%;
+}
+
+.form-class {
+    background-color: rgb(72, 72, 72);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.button-class {
+    background-color: rgb(228, 228, 228);
+    color: red;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.input-class {
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgb(72,72,72);
+}
+
